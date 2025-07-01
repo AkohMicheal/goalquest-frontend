@@ -9,7 +9,7 @@ const HomeHeroSection = () => {
 Training & Consulting for Africa’s Next Leaders"
         
         ctaText="Book Appointment"
-        ctaLink="/contact"
+        ctaLink="https://calendly.com/d/cqr3-tww-3gn/30-minute-meeting"
         backgroundImage="/hero-bg.png"
       />
     </section>

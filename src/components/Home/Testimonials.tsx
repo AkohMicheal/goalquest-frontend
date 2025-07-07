@@ -10,7 +10,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 const testimonials = [
   {
     id: 1,
-    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749899962/sarah_v5t94s.png",
+    image: "/Group-5.png",
     title:
       "I had the pleasure of being mentored by Goal Quest Consult, and it was a transformative experience. The guidance and wisdom shared by my mentor helped me navigate challenges and seize opportunities with newfound clarity. Their commitment to my personal and professional growth was evident in every interaction. I am grateful for the invaluable support and mentorship provided.",
     name: "Emily R.",
@@ -18,11 +18,19 @@ const testimonials = [
   },
   {
     id: 2,
-    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749899962/sarah_v5t94s.png",
+    image: "/Group-7.png",
     title:
       `Before working with Goal Quest Academy, our operations were scattered and inefficient. The comprehensive business services provided by their team streamlined our processes and significantly boosted our productivity. The personalized approach and attention to detail have made a substantial difference in our company's growth trajectory. Highly recommended!`,
     name: "Sarah N.",
     position: "CEO of TechInnovate.",
+  },
+  {
+    id: 3,
+    image: "/Group-8.png",
+    title:
+      `The enterpreneurial training program at Goal Quest Consult was a game-changer for me. The practical insights and hands-on approach equipped me with the skills and confidence to launch my own business. The mentors were incredibly supportive, providing valuable feedback and encouragement every step of the way. I can't thank them enough for helping me turn my dreams into reality.`,
+    name: "David L.",
+    position: "Founder, GreenPath Solutions",
   },
 ];
 

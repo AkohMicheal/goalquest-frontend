@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
+
+
 
 const Footer = () => {
   const getDate = new Date().getFullYear();
@@ -51,8 +54,8 @@ const Footer = () => {
                   Resources
                 </h2>
                 <ul className="font-semibold text-lg space-y-4 text-white">
-                  <li>Courses</li>
-                  <li>Services</li>
+                  <li><Link href="\courses">Courses</Link></li>
+                  <li><Link href="\services">Services</Link></li>
                 </ul>
               </div>
             </div>

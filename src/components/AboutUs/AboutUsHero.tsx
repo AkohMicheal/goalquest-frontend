@@ -6,18 +6,19 @@ import HeroSection from "../HeroSection";
 const AboutUsHero = () => {
   return (
     <section>
-      <HeroSection  title=""
+      <HeroSection
+        title=""
         subtitle="We partner with startups, SMEs, and corporate leaders to transform challenges into opportunities"
         ctaText="Book Appointment"
-        ctaLink="/contact"
-        backgroundImage="/hero-bg.png">
+        ctaLink="https://calendly.com/goalquestacademy/consultation"
+        backgroundImage="/hero-bg.png"
+      >
         {/* Add children content here */}
         <p className="text-2xl text-white">About Us</p>
-        <p className="text-white font-bold text-2xl mt-5 md:text-4xl -mb-11">Clarity for business growth</p>
-        
+        <p className="text-white font-bold text-2xl mt-5 md:text-4xl -mb-11">
+          Clarity for business growth
+        </p>
       </HeroSection>
-       
-    
     </section>
   );
 };

@@ -3,8 +3,6 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
-
-
 const Footer = () => {
   const getDate = new Date().getFullYear();
 
@@ -24,15 +22,30 @@ const Footer = () => {
                 that their business can grow.
               </p>
               <div className="flex space-x-4">
-                <div className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100089892374215&mibextid=ZbWKwL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center"
+                >
                   <FaFacebook className="w-5 h-5 text-[#f7c769]" />
-                </div>
-                <div className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center">
+                </a>
+                <a
+                  href="https://www.instagram.com/quest_goal?igsh=ZDJ6c2hweGhldnJn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center"
+                >
                   <FaInstagram className="w-5 h-5 text-[#f7c769]" />
-                </div>
-                <div className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center">
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/goal-quest?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center"
+                >
                   <FaLinkedin className="w-5 h-5 text-[#f7c769]" />
-                </div>
+                </a>
               </div>
             </div>
 
@@ -43,9 +56,15 @@ const Footer = () => {
                   Company
                 </h2>
                 <ul className="font-semibold text-lg space-y-4 text-white">
-                  <li>About Us</li>
-                  <li>Services</li>
-                  <li>Contact Us</li>
+                  <li>
+                    <Link href="/about-us">About Us</Link>
+                  </li>
+                  <li>
+                    <Link href="/services">Services</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact-us">Contact Us</Link>
+                  </li>
                 </ul>
               </div>
 
@@ -54,8 +73,12 @@ const Footer = () => {
                   Resources
                 </h2>
                 <ul className="font-semibold text-lg space-y-4 text-white">
-                  <li><Link href="\courses">Courses</Link></li>
-                  <li><Link href="\services">Services</Link></li>
+                  <li>
+                    <Link href="\courses">Courses</Link>
+                  </li>
+                  <li>
+                    <Link href="\services">Services</Link>
+                  </li>
                 </ul>
               </div>
             </div>

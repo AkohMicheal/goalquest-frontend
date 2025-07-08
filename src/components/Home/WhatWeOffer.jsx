@@ -66,11 +66,12 @@ export default function WhatWeOffer() {
 
             {/* Right Side (Text & Buttons) */}
             <div className="w-full mb-10 md:w-1/2 mt-6 md:mt-0 flex flex-col space-y-5">
-              <div>
+              {/* <div>
                 <Button className="bg-[#f7c769] shadow-md uppercase font-medium hover:bg-[#e6b85c]">
                   Service
                 </Button>
-              </div>
+              </div> */}
+              <h3 className="text-[#e9b348] font-semibold text-2xl uppercase">OUR SERVICES</h3>
               <h2 className="font-bold text-3xl capitalize">{offer.title}</h2>
               <p className="text-lg text-justify">{offer.header}</p>
               <div className="text-base text-justify">

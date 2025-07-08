@@ -41,24 +41,40 @@ const WorthOfBusiness = () => {
 
         {/* Right Side (Text & Buttons) */}
         <div className="w-full md:w-1/2 mt-6 md:mt-0 flex flex-col space-y-5">
-          <div>
+          {/* <div>
             <Button className="bg-[#f7c769] shadow-md uppercase font-medium hover:bg-[#e6b85c]">
               Service
             </Button>
-          </div>
+          </div> */}
+          <h3 className="text-[#e9b348] font-semibold text-2xl uppercase">OUR SERVICES</h3>
           <h2 className="font-bold text-3xl capitalize">
             Providing Clarity For Business Growth
           </h2>
           <p className="text-base text-justify">
-            Every growing business hits crossroads where uncertainty slows momentum. At GoalQuest Consult, we cut through the complexity with razor-sharp clarity, transforming your challenges into actionable growth strategies. 
+            Every growing business hits crossroads where uncertainty slows
+            momentum. At GoalQuest Consult, we cut through the complexity with
+            razor-sharp clarity, transforming your challenges into actionable
+            growth strategies.
           </p>
           <p className="text-base text-justify">
-            Our data-driven approach illuminates your path forward, turning 'what ifs' into measurable results. Whether you're scaling operations, entering new markets, or optimizing teams, we provide the strategic lens that converts vision into scalable success.
+            Our data-driven approach illuminates your path forward, turning
+            'what ifs' into measurable results. Whether you're scaling
+            operations, entering new markets, or optimizing teams, we provide
+            the strategic lens that converts vision into scalable success.
           </p>
           <div>
-            <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+            {/* <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
               Learn More
-            </Button>
+            </Button> */}
+            <a
+              href="https://forms.gle/YyKT8XzRVE2pBSQ99"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+                Join our Business Mentorship
+              </Button>
+            </a>
           </div>
         </div>
       </div>

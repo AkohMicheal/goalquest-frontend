@@ -12,6 +12,8 @@ import {
   FormMessage,
   FormField,
 } from "@/components/ui/form";
+import emailjs from "emailjs-com";
+import { Result } from "postcss";
 
 function ContactForm() {
   const form = useForm({
@@ -28,6 +30,23 @@ function ContactForm() {
         onSubmit={form.handleSubmit((data) => {
           console.log(data);
           // Handle form submission logic here
+          emailjs.send(
+            "service_ctv9azi",
+            "template_utfvmhx",
+            {
+              name: data.name,
+              email: data.email,
+              message: data.message,
+            },
+            "S232evyeiRVGwFbXN" // Your EmailJS user ID
+          ).then(
+            (Result) => {
+              alert("Message sent successfully!");
+            },
+              (error) => {
+                alert("Oops! Something went wrong. Please try again later.");
+              }
+          );
         })}
       >
         <FormField

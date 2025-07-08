@@ -53,8 +53,9 @@ const Header = () => {
         {/* Desktop Button */}
         <div className="hidden md:flex items-center gap-3 justify-center">
           <div>
-            <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+            <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]"><Link href="https://calendly.com/goalquestacademy/consultation">
               Book Appointment
+              </Link>
             </Button>
           </div>
           <div className="">
@@ -101,7 +102,9 @@ const Header = () => {
               className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]"
               onClick={() => setMenuOpen(false)}
             >
+             <Link href="https://calendly.com/goalquestacademy/consultation">
               Book Appointment
+              </Link>
             </Button>
           </div>
           <div className="mt-8">

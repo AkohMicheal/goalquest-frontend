@@ -11,7 +11,7 @@ const LocationSection = () => {
           <h2 className="text-3xl font-bold text-gray-900">Our Location</h2>
           <p className="mt-4 text-gray-600 leading-relaxed">
             Old Air-Port Rd, adjacent to Waterock Global Development, Thinkers
-            Corner, Lagos, Nigeria.
+            Corner, Enugu, Nigeria.
           </p>
         </div>
 

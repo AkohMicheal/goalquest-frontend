@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
 
@@ -12,6 +13,7 @@ const offerData = [
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1747935835/group2_dmbwvw.png",
     buttonText: "Book Appointment",
+    link: "https://calendly.com/goalquestacademy/consultation",
   },
   {
     id: 2,
@@ -21,6 +23,7 @@ const offerData = [
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1747935633/Group_15_ft9bzg.png",
     buttonText: "Book Appointment",
+    link: "https://calendly.com/goalquestacademy/consultation",
   },
   {
     id: 3,
@@ -33,6 +36,7 @@ We equip driven individuals and businesses ready to level up; we provide short c
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1747935634/group_hyqkgh.png",
     buttonText: "View Courses",
+    link: "/courses",
   },
 ];
 export default function WhatWeOffer() {
@@ -84,10 +88,25 @@ export default function WhatWeOffer() {
               </div>
 
               <div>
-                <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
-                  {offer.buttonText}
-                </Button>
-              </div>
+  {offer.link.startsWith("http") ? (
+    <a
+      href={offer.link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+        {offer.buttonText}
+      </Button>
+    </a>
+  ) : (
+    <Link href={offer.link}>
+      <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+        {offer.buttonText}
+      </Button>
+    </Link>
+  )}
+</div>
+
             </div>
           </div>
         ))}

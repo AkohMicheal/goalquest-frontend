@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
@@ -45,6 +45,14 @@ const Footer = () => {
                   className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center"
                 >
                   <FaLinkedin className="w-5 h-5 text-[#f7c769]" />
+                </a>
+                <a
+                  href="https://x.com/quest_goal?t=XbZN3nJS5a4B9Z0KE3CUZg&s=09"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center"
+                >
+                  <FaTwitter className="w-5 h-5 text-[#f7c769]" />
                 </a>
               </div>
             </div>

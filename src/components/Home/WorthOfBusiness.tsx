@@ -46,7 +46,7 @@ const WorthOfBusiness = () => {
               Service
             </Button>
           </div> */}
-          <h3 className="text-[#e9b348] font-semibold text-2xl uppercase">OUR SERVICES</h3>
+          <h3 className="text-[#e9b348] font-semibold text-3xl uppercase mb-10 mt-8">OUR SERVICES</h3>
           <h2 className="font-bold text-3xl capitalize">
             Providing Clarity For Business Growth
           </h2>
@@ -62,7 +62,7 @@ const WorthOfBusiness = () => {
             operations, entering new markets, or optimizing teams, we provide
             the strategic lens that converts vision into scalable success.
           </p>
-          <div>
+          <div className="mb-8">
             {/* <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
               Learn More
             </Button> */}
@@ -71,7 +71,7 @@ const WorthOfBusiness = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+              <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769] space-x-0">
                 Join our Business Mentorship
               </Button>
             </a>

@@ -14,11 +14,11 @@ import Image from "next/image";
 const teamMembers = [
   {
     id: 1,
-    image: "/image1.png",
-    name: "Ugochi Obilonu",
+    image: "/image0.jpeg",
+    name: "Tabitha Ngozi",
     role: "Lead Consultant",
   },
-  {
+/*   {
     id: 2,
     image: "/image3.png",
     name: "Omotunde Oyebola Funmilayo",
@@ -29,7 +29,7 @@ const teamMembers = [
     image: "/image4.jpeg",
     name: "Chidiman Obilonu",
     role: "Creative Strategist",
-  },
+  }, */
 ];
 
 const TheTeam: React.FC = () => {

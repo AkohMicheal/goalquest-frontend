@@ -32,13 +32,13 @@ const offerData = [
 We equip driven individuals and businesses ready to level up; we provide short courses and professional certifications in collaboration with globally recognized institutions.
 
 `,
-
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1747935634/group_hyqkgh.png",
     buttonText: "View Courses",
-    link: "/courses",
+    link: "/courses/coursedetail",
   },
 ];
+
 export default function WhatWeOffer() {
   return (
     <div>
@@ -48,30 +48,21 @@ export default function WhatWeOffer() {
             key={offer.id}
             className="w-10/12 mx-auto flex flex-col md:flex-row items-center justify-between"
           >
-            {/* Left Side (Image & Rectangle) */}
+            {/* Left Side (Image) */}
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
               <div className="w-full max-w-[400px]">
-                <div className="w-full"></div>
-                <div>
-                  <img
-                    src={offer.image}
-                    alt="worth of business"
-                    width={400}
-                    height={400}
-                    className="w-full"
-                  />
-                </div>
+                <img
+                  src={offer.image}
+                  alt={offer.title}
+                  width={400}
+                  height={400}
+                  className="w-full"
+                />
               </div>
             </div>
 
-            {/* Right Side (Text & Buttons) */}
+            {/* Right Side (Text & Button) */}
             <div className="w-full mb-10 md:w-1/2 mt-6 md:mt-0 flex flex-col space-y-5">
-              {/* <div>
-                <Button className="bg-[#f7c769] shadow-md uppercase font-medium hover:bg-[#e6b85c]">
-                  Service
-                </Button>
-              </div> */}
-              <h3 className="text-[#e9b348] font-semibold text-2xl uppercase">OUR SERVICES</h3>
               <h2 className="font-bold text-3xl capitalize">{offer.title}</h2>
               <p className="text-lg text-justify">{offer.header}</p>
               <div className="text-base text-justify">
@@ -87,27 +78,25 @@ export default function WhatWeOffer() {
                     ) : null
                   )}
               </div>
-
               <div>
-  {offer.link.startsWith("http") ? (
-    <a
-      href={offer.link}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
-        {offer.buttonText}
-      </Button>
-    </a>
-  ) : (
-    <Link href={offer.link}>
-      <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
-        {offer.buttonText}
-      </Button>
-    </Link>
-  )}
-</div>
-
+                {offer.buttonText === "View Courses" ? (
+                  <Link href={offer.link}>
+                    <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+                      {offer.buttonText}
+                    </Button>
+                  </Link>
+                ) : (
+                  <a
+                    href={offer.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="bg-blue-950 shadow-md font-medium hover:bg-[#f7c769]">
+                      {offer.buttonText}
+                    </Button>
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         ))}

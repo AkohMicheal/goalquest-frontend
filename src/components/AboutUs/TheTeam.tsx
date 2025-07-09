@@ -14,7 +14,7 @@ import Image from "next/image";
 const teamMembers = [
   {
     id: 1,
-    image: "/image0.jpeg",
+    image: "https://res.cloudinary.com/dn4hkronr/image/upload/v1749999715/story_sebvan.png",
     name: "Tabitha Ngozi",
     role: "Lead Consultant",
   },

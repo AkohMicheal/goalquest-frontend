@@ -17,11 +17,7 @@ export default function CourseDetailPage({ params }) {
 
   return (
     <div>
-      <CourseDetailHero
-  title={course.title}
-  ctaLink="https://forms.gle/YyKT8XzRVE2pBSQ99"
-  backgroundImage={course.image}
-/>
+      <CourseDetailHero course={course} />
       <div className="w-full mx-auto">
         <Tabs defaultValue="about" className="w-full">
           <TabsList className="w-full flex items-center justify-center bg-white rounded-none border-b border-gray-200 h-14">
@@ -52,18 +48,6 @@ export default function CourseDetailPage({ params }) {
           <TabsContent value="reviews">
             <Reviews course={course} />
           </TabsContent>
-
-          <div className="text-center my-6">
-            <a
-              href="https://forms.gle/YyKT8XzRVE2pBSQ99"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="bg-blue-950 text-white px-6 py-3 rounded-md hover:bg-blue-800">
-                Enroll in {course.title}
-              </button>
-            </a>
-          </div>
         </Tabs>
       </div>
     </div>

@@ -23,6 +23,10 @@ export const navItems = [
         id: 6,
         title: "Contact Us",
         href: "/contact-us",
-        
+    },
+    {
+        id: 7,
+        title: "Training",
+        href: "/courses",
     }
 ]

@@ -21,11 +21,13 @@ const HeroSection = ({
         height: "100vh",
       }}
     >
-      
       <div className="flex flex-col items-center justify-center h-screen gap-6 md:gap-3 text-center px-4">
         {children && <div className="mt-4">{children}</div>}
         <div className="flex items-center gap-4 mt-[40%] md:mt-[15%] md:w-[60%] mx-auto">
           <h2 className="font-bold text-2xl md:text-4xl text-white capitalize">{title}</h2>
+        </div>
+        <div className="flex items-center gap-2 mt-[0%] md:mt-[5%] md:w-[60%] mx-auto">
+          <h2 className="text-xl md:text-xl text-white capitalize">{subtitle}</h2>
         </div>
 
         {/* CTA Button */}

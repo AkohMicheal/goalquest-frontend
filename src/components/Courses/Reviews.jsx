@@ -7,14 +7,28 @@ const initialReviews = [
     time: "2 days ago",
     rating: 5,
     message:
-      "This course exceeded my expectations! The modules were practical and easy to follow. Highly recommended.",
+      "It exceeded my expectations! The modules were practical and easy to follow. Highly recommended. I learned so much about using AI tools effectively. The instructor was knowledgeable and approachable.",
   },
   {
     name: "Samuel Ade",
     time: "1 week ago",
-    rating: 4,
+    rating: 4.5,
     message:
       "Great content and engaging sessions. I especially loved the live demos. Would love more examples for job search strategies.",
+  },
+  {
+    name: "Samuel Ade",
+    time: "2 week ago",
+    rating: 4,
+    message:
+      "The course was informative and well-structured. The instructor was knowledgeable and approachable. I learned a lot about using AI tools effectively.",
+  },
+  {
+    name: "John Smith",
+    time: "3 months ago",
+    rating: 5,
+    message:
+      "This course was a game changer for my career! The insights on AI tools were invaluable. I landed a job within weeks of completing it.",
   },
 ];
 

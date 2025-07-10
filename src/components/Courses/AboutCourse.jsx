@@ -3,7 +3,7 @@ import React from "react";
 const AboutCourse = ({ course }) => {
   if (!course?.about) return null;
 
-  const { overview, who, whatMakesItDifferent } = course.about;
+  const { overview, who, whatMakesItDifferent, price } = course.about;
 
   return (
     <div>
@@ -17,6 +17,20 @@ const AboutCourse = ({ course }) => {
           What Makes This Different:
         </h1>
         <p>{whatMakesItDifferent}</p>
+
+        <h1 className="text-2xl font-semibold my-4">Course Fee:</h1>
+        <p>{price}</p>
+        <div className="text-center my-6">
+          <a
+            href={course.formLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-blue-950 text-white px-6 py-3 rounded-md hover:bg-blue-800">
+              Enroll in {course.title}
+            </button>
+          </a>
+        </div>
       </section>
     </div>
   );

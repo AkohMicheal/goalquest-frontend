@@ -6,12 +6,15 @@ const CourseData = [
     slug: "ai-smart-job-hunt",
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895758/training_eulzjf.png",
+    formLink: "https://forms.gle/oLpn7bCyZw7HNzwC9", // <-- unique link
     about: {
       overview:
         "The job market has evolved significantly, and so must your approach to job hunting. Our AI Smart Job-Hunt Bootcamp is designed to equip you with the skills and strategies needed to navigate this new landscape effectively. Whether you're a recent graduate or a seasoned professional, this bootcamp will help you leverage AI tools to enhance your job search, optimize your resume, and prepare for interviews like never before.",
       who: "In today's fast-moving business landscape, knowledge isn't just power it's your unfair advantage. At GoalQuest Consult, we've redefined to professional development through our transformational training. This course is tailored for ambitious professionals and business owners who refuse to settle for average. If you're ready to take your career or business to the next level, this bootcamp is for you.",
       whatMakesItDifferent:
         "In today's fast-moving business landscape, knowledge isn't just powerit's your unfair advantage. At GoalQuest Consult, we've redefined professional development through our transformational training programs that bridge the gap between theory and real-world execution. Our carefully curated courses are designed by seasoned practitioners who understand what it takes to succeed in African markets. Whether you're looking to master digital marketing, strengthen your leadership capabilities, or build financial acumen, our hands-on approach ensures you gain immediately applicable skills not just textbook concepts.",
+      price:
+        "Early Bird (₦5,000) - Ends 29th April 2025, Standard (₦7,000) - Includes CV Review & Revamp, VIP Package (₦15,000) - Includes 1-on-1 CV Review, Private LinkedIn Optimization Session & Lifetime Access to AI Tools Library",
     },
     modules: [
       {
@@ -92,12 +95,14 @@ const CourseData = [
     slug: "ai-social-media-marketing",
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
+    formLink: "https://tally.so/r/3lzrQv", // <-- general link
     about: {
       overview:
         "This curriculum is designed for entrepreneurs, business owners, and SME leaders to understand and strategically implement AI in their social media marketing efforts, focusing on practical applications and business impact rather than deep technical details.",
       who: "Target Audience: Entrepreneurs, Business Owners, SME Leaders, Marketing Managers. No prior AI or technical expertise is required. This course is ideal for those who want to make smarter decisions and scale their social media reach using AI.",
       whatMakesItDifferent:
         "The program offers hands-on demonstrations of AI tools for scheduling, automation, content creation, and performance analysis — empowering SMEs to compete in the digital economy without technical skills or large budgets.",
+      price: "30,000 | Duration - 3 weeks",
     },
     modules: [
       {
@@ -181,12 +186,14 @@ const CourseData = [
     slug: "virtual-assistant",
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895758/training_eulzjf.png",
+    formLink: "https://tally.so/r/3lzrQv", // <-- general link
     about: {
       overview:
         "This curriculum is designed for students, freelancers, and individuals looking to acquire the skills and knowledge necessary to become successful Virtual Assistants (VAs). It focuses on practical skills, business setup, and client acquisition strategies relevant to starting a VA career.",
       who: "Target Audience: Students, Freelancers, Individuals seeking flexible work opportunities as Virtual Assistants. Basic computer literacy and strong communication skills are required.",
       whatMakesItDifferent:
         "This program emphasizes not just virtual skills, but real business setup, pricing strategy, onboarding clients, and long-term VA success. With actionable practice and tools, it prepares you for freelancing with confidence.",
+      price: "25,000 | Duration - 3 weeks",
     },
     modules: [
       {
@@ -258,12 +265,14 @@ const CourseData = [
     slug: "business-automation",
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
+    formLink: "https://tally.so/r/3lzrQv", // <-- general link
     about: {
       overview:
         "This curriculum is designed for entrepreneurs, business owners, and SME leaders to gain a strategic and practical understanding of business process automation. It focuses on enabling them to identify automation opportunities, design effective workflows, and oversee automation implementation—without requiring deep technical expertise.",
       who: "Target Audience: Entrepreneurs, Business Owners, SME Leaders, Operations Managers, and Department Heads. No prior technical experience is needed, just a basic understanding of business operations and a willingness to explore automation tools.",
       whatMakesItDifferent:
         "This program combines strategy and hands-on planning to empower non-technical business leaders to champion automation initiatives in their organizations. It covers everything from workflow mapping to tool selection and implementation planning.",
+      price: "15,000 | Duration - 2 weeks",
     },
     modules: [
       {
@@ -325,61 +334,91 @@ const CourseData = [
   },
   {
     id: "5",
-    title: "Financial Literacy for Entrepreneurs",
+    title: "Leveraging AI for Business Growth",
     star: 4.8,
-    slug: "financial-literacy",
+    slug: "ai-for-business-growth",
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895758/training_eulzjf.png",
+    formLink: "https://tally.so/r/3lzrQv", // <-- general link
     about: {
       overview:
-        "This course empowers entrepreneurs, small business owners, and aspiring professionals with foundational financial knowledge to manage money wisely, make informed decisions, and plan for sustainable business growth.",
-      who: "Designed for non-financial professionals, freelancers, and startup founders seeking clarity around budgeting, saving, investing, and business finance essentials.",
+        "This course is designed to help non-financial professionals, freelancers, and startup founders understand the essentials of budgeting, saving, investing, and business finance. It focuses on practical skills and tools to take control of personal and business finances confidently.",
+      who: "Ideal for freelancers, small business owners, and anyone looking to improve their financial literacy without prior accounting or finance knowledge.",
       whatMakesItDifferent:
-        "This hands-on course demystifies numbers and introduces tools and habits to help participants take control of their business and personal finances with confidence.",
+        "This program focuses on practical financial skills and tools, not just theory. It empowers participants to make informed financial decisions, manage budgets, and understand investment basics to grow their wealth and business.",
+      price: "15,000 | Duration - 2 weeks",
     },
     modules: [
       {
-        title: "Module 1: Mastering Money Mindsets",
-        format: "1 Hour | Guided Reflection + Discussion",
+        title: "Module One: Understanding the Power of AI for Your Business",
+        format: "Interactive Lecture + Case Study Review + Group Discussion",
         objectives: [
-          "Understand the role of mindset in personal and business finance.",
-          "Identify limiting beliefs around money that affect decision-making.",
-          "Learn the habits of financially successful entrepreneurs.",
+          "Demystify AI and understand its relevance for SMEs.",
+          "Identify the core benefits of using AI in sales and marketing for business growth.",
+          "Recognize practical applications of AI in sales forecasting, lead scoring, and personalized marketing.",
+          "Understand the importance of data and ethical considerations in AI adoption.",
         ],
       },
       {
-        title: "Module 2: Budgeting and Cash Flow Basics",
-        format: "2 Hours | Practical Worksheet Activity",
+        title:
+          "Module Two: Smarter Sales Forecasting: Planning for Growth with AI",
+        format: "Live Demonstration + Scenario Planning Workshop",
         objectives: [
-          "Learn how to build a basic budget for personal or business use.",
-          "Track income vs. expenses and calculate net cash flow.",
-          "Use simple spreadsheet tools or apps for monthly tracking.",
+          "Understand why accurate sales forecasting is crucial for business planning.",
+          "Learn how AI can provide more accurate and insightful sales predictions.",
+          "Identify simple, accessible AI-powered tools for sales forecasting.",
+          "Interpret AI-driven forecasts to make informed business decisions.",
         ],
       },
       {
-        title: "Module 3: Introduction to Business Finance",
-        format: "2 Hours | Case Study + Simulation",
+        title: "Module Three: Finding and Focusing on Your Best Leads with AI",
+        format: "CRM Tool Exploration + Strategy Session",
         objectives: [
-          "Understand basic business finance terms: revenue, profit, loss, margin.",
-          "Read and interpret simple profit & loss statements.",
-          "Learn how pricing affects profitability.",
+          "Understand the concept and benefits of lead scoring for SME efficiency.",
+          "Learn how AI can identify and prioritize high-potential leads automatically.",
+          "Explore AI lead scoring features in CRM platforms like HubSpot or Zoho.",
+          "Design a basic lead scoring strategy tailored to your business.",
+        ],
+      },
+      {
+        title:
+          "Module Four: Personalized Marketing That Resonates with Your Customers",
+        format: "Platform Demo + Campaign Brainstorm + Segmentation Practice",
+        objectives: [
+          "Understand the impact of personalized marketing on engagement and loyalty.",
+          "Learn how AI can automate personalization across channels.",
+          "Use tools like Mailchimp or Sendinblue for smart segmentation and dynamic content.",
+          "Plan a personalized campaign using customer data responsibly.",
+        ],
+      },
+      {
+        title:
+          "Module Five: Implementing AI Strategically and Measuring Success",
+        format: "AI Planning Lab + KPI Workshop + Group Debrief",
+        objectives: [
+          "Outline a small-scale AI implementation for your business.",
+          "Identify affordable tools and low-barrier entry points.",
+          "Define key performance metrics to evaluate success.",
+          "Understand how to iterate and grow AI usage over time.",
         ],
       },
     ],
   },
   {
     id: "6",
-    title: "Foundations of Entrepreneurship",
+    title: "AI for Business Leaders",
     star: 4.8,
-    slug: "entrepreneurship",
+    slug: "ai-for-business-leaders",
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895757/black_people_banner_image_for_digital_marketing_training_website_dhs28g.png",
+    formLink: "https://tally.so/r/3lzrQv", // <-- general link
     about: {
       overview:
         "This course is a practical guide for aspiring entrepreneurs to turn ideas into real businesses. Learn how to validate ideas, build products, and launch with confidence.",
       who: "Ideal for students, early-stage founders, and side hustlers ready to take the first steps into entrepreneurship.",
       whatMakesItDifferent:
         "Instead of lectures, this course focuses on lean startup methods, customer discovery, and action-based learning to build what people actually want.",
+      price: "35,000 | Duration - 3 weeks",
     },
     modules: [
       {
@@ -413,44 +452,38 @@ const CourseData = [
   },
   {
     id: "7",
-    title: "Team Management Essentials",
+    title: "Data-Driven Digital Marketing",
     star: 4.7,
-    slug: "team-management",
+    slug: "data-driven-marketing",
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1749895758/training_eulzjf.png",
+    formLink: "https://tally.so/r/3lzrQv", // <-- general link
     about: {
       overview:
-        "This course equips new and aspiring team leaders with the skills to build, manage, and grow high-performing teams. Learn the essentials of delegation, motivation, and leadership communication.",
-      who: "Designed for first-time managers, team leads, and small business owners managing people for the first time.",
+        "This course is designed for entrepreneurs, business owners, and marketing professionals to understand how to leverage data analytics in their digital marketing strategies. It focuses on practical applications of data analysis to drive better marketing decisions and improve ROI.",
+      who: "Target Audience: Entrepreneurs, Business Owners, Marketing Managers, and Professionals looking to enhance their digital marketing skills with data-driven insights. No prior data analytics experience is required.",
       whatMakesItDifferent:
-        "This practical program focuses on real-world leadership challenges—like giving feedback, resolving conflict, and leading without being ‘the boss’.",
+        "This program combines foundational data analytics concepts with hands-on applications in digital marketing. It empowers participants to make informed decisions based on data, optimize campaigns, and measure success effectively.",
+      price: "35,000 | Duration - 3 weeks",
     },
     modules: [
       {
-        title: "Module 1: Understanding Team Dynamics",
-        format: "1.5 Hours | Group Exercise + Leadership Style Quiz",
+        title: "Module 1: Understanding Data Analytics in Digital Marketing",
+        format: "1.5 Hours | Group Exercise + Discussion",
         objectives: [
-          "Learn the stages of team development (Forming to Performing).",
+          "Learn the stages of Data Analytics in Digital Marketing.",
           "Identify your own leadership style and strengths.",
-          "Understand roles, communication, and culture in teams.",
+          "Understand roles, communication, and culture in effective teams.",
         ],
       },
       {
-        title: "Module 2: Delegation and Productivity",
+        title:
+          "Module 2: Optimize ad budgets, track campaigns, and measure ROI",
         format: "1.5 Hours | Roleplay + Task Assignment Drill",
         objectives: [
-          "Learn how to assign tasks based on strengths and workload.",
-          "Use delegation frameworks like the Eisenhower Matrix.",
-          "Avoid micromanagement and encourage accountability.",
-        ],
-      },
-      {
-        title: "Module 3: Communication and Feedback",
-        format: "2 Hours | Simulation + Live Scenarios",
-        objectives: [
-          "Practice giving clear, actionable feedback.",
-          "Resolve conflict and manage tough conversations.",
-          "Build trust through consistent communication habits.",
+          "Learn how to set up and track digital marketing campaigns using data analytics.",
+          "Use tools like Google Analytics and Facebook Ads Manager to measure campaign performance.",
+          "Avoid common pitfalls in data tracking and analysis.",
         ],
       },
     ],

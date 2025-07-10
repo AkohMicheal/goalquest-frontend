@@ -27,6 +27,16 @@ function CourseContent({ course }) {
             </div>
           ))}
         </div>
+        <div className="flex justify-center mt-8 mb-8">
+          <a
+            href={course.formLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-950 text-white px-6 py-2 rounded hover:bg-[#f7c769] transition-colors"
+          >
+            Enroll
+          </a>
+        </div>
       </div>
     </div>
   );

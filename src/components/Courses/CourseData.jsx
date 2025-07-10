@@ -13,8 +13,7 @@ const CourseData = [
       who: "In today's fast-moving business landscape, knowledge isn't just power it's your unfair advantage. At GoalQuest Consult, we've redefined to professional development through our transformational training. This course is tailored for ambitious professionals and business owners who refuse to settle for average. If you're ready to take your career or business to the next level, this bootcamp is for you.",
       whatMakesItDifferent:
         "In today's fast-moving business landscape, knowledge isn't just powerit's your unfair advantage. At GoalQuest Consult, we've redefined professional development through our transformational training programs that bridge the gap between theory and real-world execution. Our carefully curated courses are designed by seasoned practitioners who understand what it takes to succeed in African markets. Whether you're looking to master digital marketing, strengthen your leadership capabilities, or build financial acumen, our hands-on approach ensures you gain immediately applicable skills not just textbook concepts.",
-      price:
-        "Early Bird (₦5,000) - Ends 29th April 2025, Standard (₦7,000) - Includes CV Review & Revamp, VIP Package (₦15,000) - Includes 1-on-1 CV Review, Private LinkedIn Optimization Session & Lifetime Access to AI Tools Library",
+      price: "Standard: 7,000 | Duration - 2 weeks\nVIP Package: 15,000 | Duration - 2 weeks",
     },
     modules: [
       {

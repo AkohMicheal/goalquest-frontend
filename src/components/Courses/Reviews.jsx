@@ -3,32 +3,46 @@ import React, { useState } from "react";
 
 const initialReviews = [
   {
-    name: "Jane Doe",
+    name: "Obuna Okafor",
     time: "2 days ago",
     rating: 5,
     message:
       "It exceeded my expectations! The modules were practical and easy to follow. Highly recommended. I learned so much about using AI tools effectively. The instructor was knowledgeable and approachable.",
   },
   {
-    name: "Samuel Ade",
+    name: "Chidimma Nwosu",
     time: "1 week ago",
     rating: 4.5,
     message:
       "Great content and engaging sessions. I especially loved the live demos. Would love more examples for job search strategies.",
   },
   {
-    name: "Samuel Ade",
+    name: "Samuel Ogunleye",
     time: "2 week ago",
     rating: 4,
     message:
       "The course was informative and well-structured. The instructor was knowledgeable and approachable. I learned a lot about using AI tools effectively.",
   },
   {
-    name: "John Smith",
-    time: "3 months ago",
+    name: "Adeola Faruq",
+    time: "1 months ago",
     rating: 5,
     message:
       "This course was a game changer for my career! The insights on AI tools were invaluable. I landed a job within weeks of completing it.",
+  },
+  {
+    name: "Chinonso Okeke",
+    time: "3 months ago",
+    rating: 3,
+    message:
+      "I found the course helpful, but some sections felt rushed to me. More time on practical applications would be great. Overall, a solid introduction to AI tools and job search strategies.",
+  },
+  {
+    name: "Maryam Bello",
+    time: "7 months ago",
+    rating: 3.5,
+    message:
+      "The course was good, but I expected more in-depth coverage of certain topics. The instructor was engaging, but some modules felt a bit basic for my level. I would recommend that they add more advanced content in the future.",
   },
 ];
 

@@ -19,7 +19,14 @@ const AboutCourse = ({ course }) => {
         <p>{whatMakesItDifferent}</p>
 
         <h1 className="text-2xl font-semibold my-4">Course Fee:</h1>
-        <p>{price}</p>
+        <p>
+          {price.split("\n").map((line, idx) => (
+            <span key={idx}>
+              {line}
+              <br />
+            </span>
+          ))}
+        </p>
         <div className="text-center my-6">
           <a
             href={course.formLink}

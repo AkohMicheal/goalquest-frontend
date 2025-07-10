@@ -7,11 +7,6 @@ export default function CoursesPage() {
     <>
       <CoursesHero />
       <Programs />
-      <Link href="/courses/coursedetail" className="flex justify-center">
-        <button className="bg-blue-950 shadow-md font-medium hover:bg-[#151f56] text-white px-4 py-2 rounded-md transition duration-300 mx-auto mt-4 mb-8">
-          Course Details
-        </button>
-      </Link>
     </>
   );
 }

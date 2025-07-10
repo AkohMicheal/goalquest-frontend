@@ -19,7 +19,7 @@ export default function CourseList() {
               <span>★ {course.star}</span>
               <span>{course.rate}</span>
             </div>
-            <Link className="text-base bg-blue-950 text-white p-2 rounded-lg hover:" href={course.link}>Learn More</Link>
+            <Link className="text-base bg-blue-950 text-white p-2 rounded-lg hover:" href={`/courses/${course.slug}`}>Learn More</Link>
           </div>
         ))}
       </section>

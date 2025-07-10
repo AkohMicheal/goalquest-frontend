@@ -35,7 +35,7 @@ We equip driven individuals and businesses ready to level up; we provide short c
     image:
       "https://res.cloudinary.com/dn4hkronr/image/upload/v1747935634/group_hyqkgh.png",
     buttonText: "View Courses",
-    link: "/courses/coursedetail",
+    link: "/courses",
   },
 ];
 

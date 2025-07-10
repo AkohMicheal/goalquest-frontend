@@ -24,10 +24,10 @@ const GetInTouch = () => {
           </p>
           <p className="flex flex-col gap-4 font-medium text-lg text-[#00193E]">
             <a
-              href="mailto:goalquestacademy@gmail.com"
+              href="mailto:info@quest-goconsult.com"
               className="text-yellow-400 hover:underline"
             >
-              Email: goalquestacademy@gmail.com
+              Email: info@quest-goconsult.com
             </a>
             <a
               href="tel:+2341234567890"

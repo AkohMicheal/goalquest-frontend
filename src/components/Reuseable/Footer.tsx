@@ -23,7 +23,7 @@ const Footer = () => {
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="https://www.facebook.com/profile.php?id=100089892374215&mibextid=ZbWKwL"
+                  href="https://www.facebook.com/profile.php?id=100089892374215"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center"
@@ -31,7 +31,7 @@ const Footer = () => {
                   <FaFacebook className="w-5 h-5 text-[#f7c769]" />
                 </a>
                 <a
-                  href="https://www.instagram.com/quest_goal?igsh=ZDJ6c2hweGhldnJn"
+                  href="https://www.instagram.com/goalquestacademy/?igsh=ZDJ6c2hweGhldnJn#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center"
@@ -47,7 +47,7 @@ const Footer = () => {
                   <FaLinkedin className="w-5 h-5 text-[#f7c769]" />
                 </a>
                 <a
-                  href="https://x.com/quest_goal?t=XbZN3nJS5a4B9Z0KE3CUZg&s=09"
+                  href="https://x.com/goalquestacad?t=q9PpN6_9zTOm_c5hLHVatw&s=09"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full border border-[#f7c769] flex items-center justify-center"
